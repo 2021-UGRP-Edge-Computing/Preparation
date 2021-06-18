@@ -1,0 +1,14 @@
+# 제안된 논문 (검수 전)
+https://openreview.net/forum?id=Ek7qrYhJMbn  - Centralizea와 Decentralize 방식의 차이점 비교
+https://ieeexplore.ieee.org/abstract/document/9197692?casa_token=YrdPHnnqlQsAAAAA:XmuJI2gHHQCdHBBNbrybhrKd1KLE1vYv_h683jNzIhkLC_BmEX74htbWwc3QjqVFd5AW7VO8m_HL - 최적화 관련
+https://arxiv.org/abs/1907.09356 - 최적화 관련
+
+# 장단점 비교
+Decentralize:구현이 쉽고, 중앙서버에 관한 병목현상이 없고, 비교적 최신 기술이라는 장점이 있지만 
+네트워크에 mutual trust관계의 노드가 없다면 원활하게 learning이 진행되지 않고, 비교적 연구가 덜 되었다는 단점이 있습니다.
+Training: 구현이 어렵지만 좀 더 많은 것을 배울 수 있음
+Inference: 구현이 쉽지만 UGRP 목표에 어긋나지 않아 보임
+
+# 결과 
+Decentralize / Inference 조합을 사용하기로 결정, 다만 추후 상황을 보며 Inference에서 Training으로 변경 가능
+Decentralize의 단점 중 Mutual trust 문제는 모든 Node가 딱히 신뢰성을 잃을 만큼 나쁜 상황에 빠지지 않을 것이라 생각하므로 발생하지 않을 것이라 예상.
